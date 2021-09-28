@@ -1,0 +1,32 @@
+package pgdacsectionb;
+import java.util.*;
+public class table {
+
+ 
+
+    public static void main(String[] args) {
+    //wap to ask name and age of person 
+        //scanner is a built in class
+        // creating object of scanner object 
+        Scanner s= new Scanner(System.in);
+        String name;
+        int age;
+        System.out.println("enter name and age");
+   
+        name=s.next(); 
+        age= s.nextInt();
+        System.out.println(name);
+        System.out.println(age);
+        System.out.println("which table?");
+        
+    int n=s.nextInt();
+        for(int i=1;i<=10;i++)
+            System.out.println(n*i);
+
+ 
+
+    }
+
+ 
+
+}
